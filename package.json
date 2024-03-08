@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch:sass": "node-sass -w css/style.scss css/logged-in-home.css"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

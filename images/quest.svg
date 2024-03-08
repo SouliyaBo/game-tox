@@ -1,0 +1,47 @@
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>

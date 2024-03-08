@@ -1,0 +1,3127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laos Platfrom </title>
+  <link rel="stylesheet" type="text/css" href="../../css/logged-in-home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wallet-popup-box" id="wallet-popup-box">
+    <div class="wallet-menu-box">
+      <div class="wallet-header-text">
+        <div class="wallet-text-none"></div>
+        <div class="wallet-text">ກະເປົາ</div>
+        <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="wallet-close-icon"
+          alt="close-wallet-button" />
+      </div>
+      <div class="wallet-header-menu-box">
+        <div class="wallet-header-menu" id="open-sub-wallet">
+          <img src="../../images/logged-in/wallet-menu-icon/1.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ຮັບໂປຣ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-sub-credit">
+          <img src="../../images/logged-in/wallet-menu-icon/2.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ເຄດິດຟຣີ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-cristal">
+          <img src="../../images/logged-in/wallet-menu-icon/3.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ຄິສຕໍຟຣີ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-wheel">
+          <img src="../../images/logged-in/wallet-menu-icon/4.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ກົງລໍ້</div>
+        </div>
+        <div class="wallet-header-menu" id="open-deposit">
+          <img src="../../images/logged-in/wallet-menu-icon/5.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ຝາກກິນດອກ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-invite">
+          <img src="../../images/logged-in/wallet-menu-icon/6.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ສ້າງລາຍໄດ້</div>
+        </div>
+        <div class="wallet-header-menu" id="open-cashback">
+          <img src="../../images/logged-in/wallet-menu-icon/7.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">Ranking</div>
+        </div>
+        <div class="wallet-header-menu" id="open-return">
+          <img src="../../images/logged-in/wallet-menu-icon/8.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ຄືນຍອດ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-code">
+          <img src="../../images/logged-in/wallet-menu-icon/9.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ໃສ່ໂຄ້ດ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-movie">
+          <img src="../../images/logged-in/wallet-menu-icon/10.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">ເບິ່ງໜັງຟຣີ</div>
+        </div>
+        <div class="wallet-header-menu" id="open-roadmap">
+          <img src="../../images/logged-in/wallet-menu-icon/11.png" class="wallet-menu-icon" alt="wallet-menu" />
+          <div class="wallet-menu-text">Road map</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- wallet -->
+  <div class="wallet-submenu-box" id="wallet-submenu-box">
+    <div class="wallet-submenu-box-background">
+      <div class="wallet-header-text-bonus">
+        <div class="wallet-text-none" id="back-wallet">‹</div>
+        <div class="wallet-text">ເລືອກຮັບໂບນັດ</div>
+        <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="sub-wallet-close-icon"
+          alt="close-wallet-button" />
+      </div>
+      <div class="wallet-header-menu-box-bonus">
+        <div class="resource-score-box-submenu">
+          <img src="../../images/logged-in/coin-icon.png" class="resource-icon" alt="user-coin" />
+          <div class="text-score">0.00</div>
+        </div>
+        <div>
+          <div class="bonus-list-box" id="bonus-list-box-1">
+            <div class="bonus-list-text">ຝາກບິລແລກຂອງມື້</div>
+            <div class="bonus-not-term">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+            <img src="../../images/logged-in/sub-dropdown.png" class="sub-dropdown" alt="sub-dropdown" />
+          </div>
+          <img src="../../images/logged-in/sub-bonus-detail.png" class="sub-bonus-detail" alt="sub-bonus-detail"
+            id="sub-bonus-detail-1" />
+        </div>
+        <div>
+          <div class="bonus-list-box" id="bonus-list-box-2">
+            <div class="bonus-list-text">ບິລສອງຂອງມື້ 300%</div>
+            <div class="bonus-not-term">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+            <img src="../../images/logged-in/sub-dropdown.png" class="sub-dropdown" alt="sub-dropdown" />
+          </div>
+          <img src="../../images/logged-in/sub-bonus-detail.png" class="sub-bonus-detail" alt="sub-bonus-detail"
+            id="sub-bonus-detail-2" />
+        </div>
+        <div>
+          <div class="bonus-list-box" id="bonus-list-box-3">
+            <div class="bonus-list-text">ໂບນັດໝົດມື້ 100%</div>
+            <div class="bonus-not-term">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+            <img src="../../images/logged-in/sub-dropdown.png" class="sub-dropdown" alt="sub-dropdown" />
+          </div>
+          <img src="../../images/logged-in/sub-bonus-detail.png" class="sub-bonus-detail" alt="sub-bonus-detail"
+            id="sub-bonus-detail-3" />
+        </div>
+        <div>
+          <div class="bonus-list-box" id="bonus-list-box-4">
+            <div class="bonus-list-text">ໂບນັດໝົດມື້ 50%</div>
+            <div class="bonus-not-term">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+            <img src="../../images/logged-in/sub-dropdown.png" class="sub-dropdown" alt="sub-dropdown" />
+          </div>
+          <img src="../../images/logged-in/sub-bonus-detail.png" class="sub-bonus-detail" alt="sub-bonus-detail"
+            id="sub-bonus-detail-4" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- profile -->
+  <div class="profile-popup-box" id="profile-box">
+    <div class="profile-menu-box">
+      <div class="wallet-header-text">
+        <div class="wallet-text-none"></div>
+        <div class="wallet-text">ຂໍ້ມູນໂປຣຟາຍ</div>
+        <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="profile-close-icon"
+          alt="close-wallet-button" />
+      </div>
+      <div class="wallet-header-menu-box">
+        <div class="profile-menu-list-box">
+          <img src="../../images/logged-in/person-icon.png" class="person-icon-menu" alt="" />
+          &#160;&#160;
+          <div>ຊື່ຜູ້ໃຊ້ : chr66545454545</div>
+        </div>
+        <div class="profile-menu-list-box">
+          <img src="../../images/logged-in/password-icon.png" class="person-icon-menu" alt="" />
+          &#160;&#160;
+          <div>ລະຫັດຜ່ານ : 555555555</div>
+        </div>
+        <div class="profile-menu-list-box">
+          <img src="../../images/logged-in/coint-3.png" class="person-icon-menu" alt="" />
+          &#160;&#160;
+          <div>ຍອດເງິນຍັງເຫຼືອ : 0.00</div>
+        </div>
+      </div>
+      <div class="k-bank-menu">
+        <img src="../../images/logged-in/k-bank.png" class="k-bank-image" alt="" />
+        <div class="k-bank-menu-text-box">
+          <div class="k-bank-menu-text">KBANK</div>
+          <div class="k-bank-menu-text">026-0-00000-0</div>
+          <div class="k-bank-main-account-text">ບັນຊີຫຼັກ</div>
+          <div class="k-bank-menu-text">ທ້າວ ກກກກກກ</div>
+        </div>
+      </div>
+      <div class="add-account-menu">
+        <img src="../../images/logged-in/plus.png" class="add-account-image" alt="" />
+        &#160;&#160;
+        <div class="add-account-text">ເພີ່ມບັນຊີ</div>
+      </div>
+      <div class="setting-menu">
+        <div class="setting-menu-control">
+          <img src="../../images/logged-in/setting.png" class="setting-image" alt="" />
+          <label class="switch" for="switch" aria-label="switch">
+            <input id="switch" type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        &#160;&#160;
+        <div>
+          <div class="setting-text">
+            <span style="font-size: 20px; color: #00920f; font-weight: bold">ເປີດ</span>&#160; ລະບົບຈະປະມວນຜົນໂບນັດ
+            ທີ່ດີທີ່ສຸດ
+            ຕາມຊ່ວງເວລາໃຫ້ອັດຕະໂນມັດ
+          </div>
+          <div class="setting-text"><span style="font-size: 20px; color: #ff0000; font-weight: bold">ປິດ</span>&#160;
+            ເມື່ອບໍ່ຕ້ອງການຮັບໂບນັດ</div>
+        </div>
+      </div>
+      <div class="change-password-menu">
+        <img src="../../images/logged-in/password-icon.png" class="change-password-image" alt="" />
+        &#160;&#160;&#160;
+        <div class="change-password-text">ປ່ຽນລະຫັດຜ່ານ</div>
+      </div>
+    </div>
+  </div>
+  <!-- deposit -->
+  <div class="deposit-submenu-box" id="deposit-box">
+    <div class="deposit-submenu-box-background">
+      <div class="wallet-header-text-deposit">
+        <div class="wallet-text-none" id="back-deposit">‹</div>
+        <div class="wallet-text">ຝາກກິນດອກ</div>
+        <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="deposit-close-icon"
+          alt="close-wallet-button" />
+      </div>
+      <div class="deposit-header-menu-box">
+        <div class="deposit-box">
+          <div class="deposit-list-box" id="deposit-list-box-1">
+            <div class="deposit-number">2000 / 8000</div>
+            <div class="deposit-text-box">
+              <div class="deposit-text">1 ມື້</div>
+              <div class="deposit-term">ດອກເບີ້ຍ 20 %</div>
+            </div>
+          </div>
+          <div class="deposit-detail-text-box" id="deposit-detail-text-box-1">
+            <br />
+            <div class="deposit-detail-text">
+              <div>ເງິນຕົ້ນ 100.00</div>
+              <div>ດອກເບີ້ຍ 20 %</div>
+            </div>
+            <div class="deposit-detail-text">
+              <div>ປະຈຸບັນ 120.0000</div>
+              <div>ຍອດລວມ 120.00</div>
+            </div>
+            <div class="deposit-detail-text-2">ຄົບກຳນົດແລ້ວ</div>
+            <div class="deposit-detail-text-3">120.00</div>
+            <div class="deposit-detail-button">ຖອນເງິນ</div>
+          </div>
+        </div>
+        <div class="deposit-box">
+          <div class="deposit-list-box" id="deposit-list-box-2">
+            <div class="deposit-number">2000 / 8000</div>
+            <div class="deposit-text-box">
+              <div class="deposit-text">1 ມື້</div>
+              <div class="deposit-term">ດອກເບີ້ຍ 20 %</div>
+            </div>
+          </div>
+          <div class="deposit-detail-text-box" id="deposit-detail-text-box-2">
+            <br />
+            <div class="deposit-detail-text">
+              <div>ເງິນຕົ້ນ 100.00</div>
+              <div>ດອກເບີ້ຍ 20 %</div>
+            </div>
+            <div class="deposit-detail-text">
+              <div>ປະຈຸບັນ 120.0000</div>
+              <div>ຍອດລວມ 120.00</div>
+            </div>
+            <div class="deposit-detail-text-2">ຄົບກຳນົດແລ້ວ</div>
+            <div class="deposit-detail-text-3">120.00</div>
+            <div class="deposit-detail-button">ຖອນເງິນ</div>
+          </div>
+        </div>
+        <div class="deposit-box">
+          <div class="deposit-list-box" id="deposit-list-box-3">
+            <div class="deposit-number">2000 / 8000</div>
+            <div class="deposit-text-box">
+              <div class="deposit-text">1 ມື້</div>
+              <div class="deposit-term">ດອກເບີ້ຍ 20 %</div>
+            </div>
+          </div>
+          <div class="deposit-detail-text-box" id="deposit-detail-text-box-3">
+            <br />
+            <div class="deposit-detail-text">
+              <div>ເງິນຕົ້ນ 100.00</div>
+              <div>ດອກເບີ້ຍ 20 %</div>
+            </div>
+            <div class="deposit-detail-text">
+              <div>ປະຈຸບັນ 120.0000</div>
+              <div>ຍອດລວມ 120.00</div>
+            </div>
+            <div class="deposit-detail-text-2">ຄົບກຳນົດແລ້ວ</div>
+            <div class="deposit-detail-text-3">120.00</div>
+            <div class="deposit-detail-button">ຖອນເງິນ</div>
+          </div>
+        </div>
+        <div class="deposit-box">
+          <div class="deposit-list-box" id="deposit-list-box-4">
+            <div class="deposit-number">2000 / 8000</div>
+            <div class="deposit-text-box">
+              <div class="deposit-text">1 ມື້</div>
+              <div class="deposit-term">ດອກເບີ້ຍ 20 %</div>
+            </div>
+          </div>
+          <div class="deposit-detail-text-box" id="deposit-detail-text-box-4">
+            <br />
+            <div class="deposit-detail-text">
+              <div>ເງິນຕົ້ນ 100.00</div>
+              <div>ດອກເບີ້ຍ 20 %</div>
+            </div>
+            <div class="deposit-detail-text">
+              <div>ປະຈຸບັນ 120.0000</div>
+              <div>ຍອດລວມ 120.00</div>
+            </div>
+            <div class="deposit-detail-text-2">ຄົບກຳນົດແລ້ວ</div>
+            <div class="deposit-detail-text-3">120.00</div>
+            <div class="deposit-detail-button">ຖອນເງິນ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- change password -->
+  <div class="change-password-box" id="change-password-box">
+    <div class="change-password-box-background">
+      <div class="wallet-header-text">
+        <div class="wallet-text-none"></div>
+        <div class="wallet-text">ປ່ຽນລະຫັດຜ່ານ</div>
+        <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="change-password-close-icon"
+          alt="close-wallet-button" />
+      </div>
+      <div class="change-password-menu-box">
+        <input type="password" class="password-input" placeholder="ຕັ້ງລະຫັດຜ່ານໃໝ່" />
+        <input type="password" class="password-input" placeholder="ຍືນຍັນລະຫັດຜ່ານໃໝ່" />
+        <button class="password-button">ຍືນຍັນ</button>
+      </div>
+    </div>
+  </div>
+  <!-- cristal -->
+  <div class="cristal-box" id="cristal-box">
+    <div class="cristal-box-background">
+      <div class="cristal-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-cristal">‹</div>
+          <div class="wallet-text">ຄິດຕໍຟຣີ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="cristal-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="cristal-menu-box">
+          <img src="../../images/logged-in/back-cristal.png" class="back-cristal-image" alt="back-cristal" />
+          <div class="cristal-text-box">
+            <div class="cristal-text">ບໍ່ມີລາຍການ</div>
+            <div class="cristal-text">ຄິດຕໍ້ຟຣີ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- credit -->
+  <div class="credit-box" id="credit-box">
+    <div class="credit-box-background">
+      <div class="credit-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-credit">‹</div>
+          <div class="wallet-text">ເຄດິດຟຣີ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="credit-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="credit-menu-box">
+          <img src="../../images/logged-in/back-coin.png" class="back-credit-image" alt="back-credit" />
+          <div class="credit-text-box">
+            <div class="credit-text">ບໍ່ມີລາຍການ</div>
+            <div class="credit-text">ຄິດຕໍ້ຟຣີ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- invite -->
+  <div class="invite-box" id="invite-box">
+    <div class="invite-box-background">
+      <div class="invite-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-invite">‹</div>
+          <div class="wallet-text">ຊວນໝູ່ແລ້ວລວຍ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="invite-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="invite-menu-box">
+          <div class="invite-box-0">
+            <div class="invite-box-1">
+              <div class="invite-box-2">
+                <div class="invite-box-3">
+                  <div>ຈຳນວນໝູ່</div>
+                  <div>ທັງໝົດ</div>
+                </div>
+                <div>0</div>
+              </div>
+              <div class="invite-box-2">
+                <div>ລາຍໄດ້ມື້ນີ້</div>
+                <div>0.00</div>
+              </div>
+            </div>
+            <div class="invite-box-4">
+              <div class="invite-box-2">
+                <div class="text-1">ລາຍໄດ້ທັງໝົດ</div>
+                <div class="number-price">0.00</div>
+                <div class="text-1">ລະບົບຈຳຄຳນວນ</div>
+                <div class="text-1">ທຸກທ່ຽງຄືນ</div>
+                <div class="withdraw-1">ຖອນເຂົ້າເຄດິດ</div>
+                <div class="text-2">ຖອນຂັ້ນຕໍ່າ 1 ບາດ</div>
+              </div>
+              <div class="invite-box-2">
+                <img src="../../images/logged-in/qr.png" class="qr-image" alt="" />
+                <div class="withdraw-2">ຖອນເຂົ້າບັນຊີ</div>
+                <div class="text-2">ປິດໃຊ້ງານລະບົບຖອນເຂົ້າບັນຊີ</div>
+              </div>
+            </div>
+          </div>
+          <div class="text-title">ລາຍໄດ້ທັງໝົດ</div>
+          <div class="text-2">ເຈົ້າຈະໄດ້ຮັບລາຍໄດ້ເພີ່ມຈາກການເຊີນໝູ່</div>
+          <div class="invite-box-4">
+            <input type="text" class="invite-text-search" aria-label="text-search" />
+            <div class="withdraw-1">ຄັດລອກ</div>
+          </div>
+          <br />
+          <div class="invite-box-0">
+            <div class="text-title-2">ຕາລາງຮັບເຄດິດຟຣີ ຊວນໝູ່</div>
+            <div class="invite-box-5">
+              <div>ຊື່ຜູ້ໃຊ້</div>
+              <div>ວັນທີ່</div>
+              <div>ຍອດຝາກ</div>
+              <div>ສະຖານະ</div>
+            </div>
+            <div class="invite-box-5">
+              <div>ກົດຄັດລອກລິ້ງແລ້ວສົ່ງໃຫ້ໝູ່ຂອງທ່ານສະໝັກໄດ້ເລີຍ.</div>
+            </div>
+            <br />
+          </div>
+          <br />
+          <div class="invite-box-0">
+            <div class="text-title-2">ປະຫວັດການຫາລາຍໄດ້ຈາກໝູ່ເພື່ອນ</div>
+            <div class="invite-box-5">
+              <div>ຊື່ຜູ້ໃຊ້</div>
+              <div>ຍອດຫຼີ້ນ</div>
+              <div>ຍອດເສຍ</div>
+              <div>ດອກເບີ້ຍ</div>
+            </div>
+            <div class="invite-box-5">
+              <div>ກົດຄັດລອກລິ້ງແລ້ວສົ່ງໃຫ້ໝູ່ຂອງທ່ານສະໝັກໄດ້ເລີຍ.</div>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- roadmap -->
+  <div class="roadmap-box" id="roadmap-box">
+    <div class="roadmap-box-background">
+      <div class="roadmap-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-roadmap">‹</div>
+          <div class="wallet-text">Road Map</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="roadmap-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="roadmap-menu-box">
+          <div class="roadmap-box-1"></div>
+          <div class="roadmap-text-1">📲 Add Line ຫຼັກ bit.ly/3lRovzG</div>
+          <div class="roadmap-text-1">📲 Add Line ສຳຮອງ bit.ly/3sZ9boA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- wheel -->
+  <div class="wheel-game-box" id="wheel-box">
+    <div class="wheel-game-box-background">
+      <div class="wheel-game-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-wheel">‹</div>
+          <div class="wallet-text">ກົງລໍ້</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="wheel-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="wheel-game-menu-box">
+          <div class="wheel-text-title">ແຕ້ມທັງໝົດ : 0.00</div>
+          <div class="wheel-text-body">10 ແຕ້ມ ໝູນວົງລໍ້ໄດ້ 1 ເທື່ອ</div>
+          <img src="../../images/logged-in/wheeel-game.png" class="wheeel-game-image" alt="" />
+          <div class="wheel-text-button-1">ໝູນກົງລໍ້</div>
+          <div class="wheel-game-box-1">
+            <div class="wheel-text-title">ເຄດິດກົງລໍ້ : 0.00</div>
+            <input type="number" class="wheel-input" placeholder="ຈຳນວນເງິນ" />
+            <div class="wheel-text-body-1">ແລກເງິນເຂົ້າເຄດິດ ຂັ້ນຕໍ່າ 100.00</div>
+            <div class="wheel-game-button-2">ແລກເງິນເຂົ້າເຄດິດ</div>
+            <div class="wheel-text-title-2">ອ່ານກົດກະຕິກາ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cashback -->
+  <div class="cashback-box" id="cashback-box">
+    <div class="cashback-box-background">
+      <div class="cashback-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-cashback">‹</div>
+          <div class="wallet-text">CASHBACK</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="cashback-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="cashback-menu-box">
+          <div class="cashback-box-1" id="open-cashback-detail">
+            <img src="../../images/cashback/1.png" class="cashback-image" alt="" />
+            <div class="cashback-text-box">
+              <div class="cashback-text-1">ສະລ໋ອດ</div>
+              <div>ຄືນຍອດເສຍ 5.0%</div>
+            </div>
+          </div>
+          <div class="cashback-box-1">
+            <img src="../../images/cashback/2.png" class="cashback-image" alt="" />
+            <div class="cashback-text-box">
+              <div class="cashback-text-1">ບາຄາລ່າ</div>
+              <div>ຄືນຍອດເສຍ 5.0%</div>
+            </div>
+          </div>
+          <div class="cashback-box-1">
+            <img src="../../images/cashback/3.png" class="cashback-image" alt="" />
+            <div class="cashback-text-box">
+              <div class="cashback-text-1">ຍິງປາ</div>
+              <div>ຄືນຍອດເສຍ 5.0%</div>
+            </div>
+          </div>
+          <div class="cashback-box-1">
+            <img src="../../images/cashback/4.png" class="cashback-image" alt="" />
+            <div class="cashback-text-box">
+              <div class="cashback-text-1">ປ໋ອກເດັ້ງ</div>
+              <div>ຄືນຍອດເສຍ 5.0%</div>
+            </div>
+          </div>
+          <div class="cashback-box-1">
+            <img src="../../images/cashback/5.png" class="cashback-image" alt="" />
+            <div class="cashback-text-box">
+              <div class="cashback-text-1">ຫວຍ</div>
+              <div>ຄືນຍອດເສຍ 5.0%</div>
+            </div>
+          </div>
+          <div class="cashback-box-1">
+            <img src="../../images/cashback/6.png" class="cashback-image" alt="" />
+            <div class="cashback-text-box">
+              <div class="cashback-text-1">ກິລາ</div>
+              <div>ຄືນຍອດເສຍ 5.0%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cashback detail -->
+  <div class="cashback-detail-box" id="cashback-detail-box">
+    <div class="cashback-detail-box-background">
+      <div class="cashback-detail-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-cashback-detail">‹</div>
+          <div class="wallet-text">
+            CASHBACK SLOT
+            <div style="font-size: 14px">ຄືນຍອດເສຍເກມ ສະລ໋ອດ</div>
+          </div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="cashback-detail-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="cashback-detail-menu-box">
+          <div class="cashback-detail-1">
+            <div>ຍອດເສຍສະສົມ 0</div>
+            <div>Cashback 5.00 %</div>
+          </div>
+          <div class="cashback-detail-1">
+            <div>ຍອດເສຍມື້ນີ້ 0</div>
+            <div class="cashback-detail-btn-history">ປະຫວັດການຮັບ</div>
+          </div>
+          <br />
+          <div style="text-align: center">ຍອດເສຍຂອງເຈົ້າ</div>
+          <div style="text-align: center; font-size: 22px">0</div>
+          <div style="text-align: center; font-size: 14px">ອັບເດດລ່າສຸດ 09-09-65 12.00 ນ.</div>
+          <div class="cashback-detail-btn-credit">ຮັບເຂົ້າເຄດິດ</div>
+          <div class="cashback-detail-btn-widraw">ຖອນເຂົ້າບັນຊີ</div>
+          <br />
+          <div class="cashback-detail-1">
+            <div style="font-size: 16px">ຂັ້ນຕ່ຳ 1, ສູງສຸດ 10000</div>
+            <div class="cashback-close-text">ປິດໃຊ້ງານກ່ອນເຂົ້າບັນຊີ</div>
+          </div>
+          <br />
+          <div style="text-align: center">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- code -->
+  <div class="code-box" id="code-box">
+    <div class="code-box-background">
+      <div class="code-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-code">‹</div>
+          <div class="wallet-text">ໃສ່ໂຄ້ດ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="code-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="code-menu-box">
+          <input type="text" class="code-input" placeholder="ປ້ອນເລກໂຄ້ດ" />
+          <div class="code-button">ຍືນຍັນ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- quest -->
+  <div class="quest-box" id="quest-box">
+    <div class="quest-box-background">
+      <div class="quest-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none"></div>
+          <div class="wallet-text">QUEST</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="quest-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="quest-menu-box">
+          <div class="quest-box-1">
+            <div class="quest-box-2">
+              <div class="quest-text">ເຂົ້າສູ່ລະບົບ 7 ມື້</div>
+              <div class="quest-text-percent">100</div>
+            </div>
+            <div class="quest-btn">ສຳເລັດ</div>
+          </div>
+          <div class="quest-box-1">
+            <div class="quest-box-2">
+              <div class="quest-text">ເຕີມເງີນຄົບ 300</div>
+              <div class="quest-text-percent">70</div>
+            </div>
+            <div class="quest-btn-inactive">ຍັງບໍ່ສຳເລັດ</div>
+          </div>
+          <div class="quest-box-1">
+            <div class="quest-box-2">
+              <div class="quest-text">ຮອດເລເວວ 5</div>
+              <div class="quest-text-percent">70</div>
+            </div>
+            <div class="quest-btn-inactive">ຍັງບໍ່ສຳເລັດ</div>
+          </div>
+          <div class="quest-box-1">
+            <div class="quest-box-2">
+              <div class="quest-text">ຮອດເລເວວ 10</div>
+              <div class="quest-text-percent">70</div>
+            </div>
+            <div class="quest-btn-inactive">ຍັງບໍ່ສຳເລັດ</div>
+          </div>
+          <div class="quest-box-1">
+            <div class="quest-box-2">
+              <div class="quest-text">ຍອດສະສົມ 2000 ບາດ</div>
+              <div class="quest-text-percent">70</div>
+            </div>
+            <div class="quest-btn-inactive">ຍັງບໍ່ສຳເລັດ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- history -->
+  <div class="history-box" id="history-box">
+    <div class="history-box-background">
+      <div class="history-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none"></div>
+          <div class="wallet-text">ປະຫວັດການຝາກ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="history-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="history-menu-box">
+          <div class="history-menu-title">
+            <div id="select-deposit" class="history-title-deposit">ຝາກ</div>
+            <div id="select-withdraw" class="history-title-withdraw">ຖອນ</div>
+            <div id="select-bonus" class="history-title-bonus">ໂບນັດ</div>
+          </div>
+          <br />
+          <div id="history-deposit" class="history-deposit">
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການຝາກ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການຝາກ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການຝາກ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+          </div>
+          <div id="history-withdraw" class="history-withdraw">
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການຖອນ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ :</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການຖອນ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ :</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການຖອນ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ :</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+          </div>
+          <div id="history-bonus" class="history-bonus">
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການໂບນັດ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ :</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການໂບນັດ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ :</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+            <div class="history-item">
+              <div class="history-list-box">
+                <div class="history-box-2">
+                  <div>ລາຍການໂບນັດ</div>
+                  <div>55</div>
+                </div>
+                <div class="history-box-3">ສຳເລັດ</div>
+              </div>
+              <div class="history-list-box">
+                <div class="history-box-2">ໝາຍເຫດ :</div>
+                <div class="history-box-4">2022-10-16 16.00</div>
+              </div>
+              <div class="red-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- history modal -->
+  <div class="modal-history-pc" id="myDIV" style="display: none">
+    <div class="modal-header-container">
+      <div class="modal-header">
+        <p class="modal-title" id="history-title-deposit">ປະຫວັດຝາກ</p>
+        <p class="modal-title" id="history-title-withdraw">ປະຫວັດຖອນ</p>
+        <p class="modal-title" id="history-title-bonus">ປະຫວັດໂບນັດ</p>
+        <img src="/images/logged-in/x-button.png" class="wallet-close-icon" onclick="myFunction()"
+          style="display: block" alt="close-wallet-button" />
+      </div>
+    </div>
+
+    <div class="history-modal-content">
+      <div class="history-tab">
+        <div class="history-tab-item active" id="tab-deposit">ຝາກ</div>
+        <div class="history-tab-item" id="tab-withdraw">ຖອນ</div>
+        <div class="history-tab-item" id="tab-bonus">ໂບນັດ</div>
+      </div>
+      <!-- ฝาก -->
+      <div class="history-deposit" id="history-content-deposit">
+        <div class="history-list">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຝາກ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ถอน -->
+      <div class="history-withdraw" id="history-content-withdraw" style="display: none">
+        <div class="history-list">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຖອນ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຖອນ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຖອນ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຖອນ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການຖອນ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- โบนัส -->
+      <div class="history-bonus" id="history-content-bonus" style="display: none">
+        <div class="history-list">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການໂບນັດ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການໂບນັດ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການໂບນັດ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການໂບນັດ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການໂບນັດ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+        <div class="history-list border-0">
+          <div class="history-list-left">
+            <label class="history-list-label">ລາຍການໂບນັດ</label>
+            <p class="history-list-label">55</p>
+            <p class="history-list-label">ໝາຍເຫດ : ບໍ່ຮັບໂບນັດ</p>
+          </div>
+          <div class="history-list-right">
+            <div class="history-status success">ສຳເລັດ</div>
+            <p class="history-date">2022-10-16 16.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw -->
+  <div class="withdraw-box" id="withdraw-box">
+    <div class="withdraw-box-background">
+      <div class="withdraw-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="withdraw-box-back">‹</div>
+          <div class="wallet-text">ຖອນເງິນ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="withdraw-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="withdraw-menu-box">
+          <input type="number" class="withdraw-input" placeholder="0.00" />
+          <div class="withdraw-box-1">
+            <div class="withdraw-box-2">100</div>
+            <div class="withdraw-box-2">300</div>
+          </div>
+          <div class="withdraw-box-1">
+            <div class="withdraw-box-2">500</div>
+            <div class="withdraw-box-2">1000</div>
+          </div>
+          <div class="withdraw-box-1">
+            <div class="withdraw-box-2">2000</div>
+            <div class="withdraw-box-2">5000</div>
+          </div>
+          <div class="withdraw-box-3" id="open-withdraw-detail">ຍືນຍັນ</div>
+          <div class="withdraw-box-4">ອ່ານກົດກະຕິກາ</div>
+          <div class="withdraw-box-5">
+            ຖ້າທ່ານພົບບັນຫາ &nbsp;<span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ / ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw detail -->
+  <div class="withdraw-detail-box" id="withdraw-detail-box">
+    <div class="withdraw-detail-box-background">
+      <div class="withdraw-detail-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none" id="back-withdraw-detail">‹</div>
+          <div class="wallet-text">ຖອນເງິນ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="withdraw-detail-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="withdraw-detail-menu-box">
+          <div class="withdraw-detail-1">
+            <img src="../../images/logged-in/k-bank.png" class="withdraw-detail-k-bank" alt="" />
+            <div class="withdraw-detail-2">
+              <div>KBANK</div>
+              <div>ທ້າວ ກກກກກກ</div>
+            </div>
+          </div>
+          <div class="withdraw-detail-3">
+            <div>ເລກບັນຊີ</div>
+            <div class="withdraw-detail-4">
+              <div class="withdraw-detail-text-2">999-999-99</div>
+              <img src="../../images/logged-in/copy-icon.png" class="withdraw-copy-image" alt="" />
+            </div>
+          </div>
+          <div class="withdraw-detail-5">
+            <div class="withdraw-detail-text-3">ຈຳນວນເງິນທີ່ຖອນໄດ້</div>
+            <div class="withdraw-detail-text-4">99999.00</div>
+          </div>
+          <div class="withdraw-box-3">ຖອນເງິນ</div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ / ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+          <div class="withdraw-detail-box-4">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- setting -->
+  <div class="setting-box" id="setting-box">
+    <div class="setting-box-background">
+      <div class="setting-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none"></div>
+          <div class="wallet-text">ตั้งค่า</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="setting-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="setting-menu-box">
+          <div class="setting-yellow-menu" id="open-profile">
+            <img src="../../images/logged-in/setting-menu/user.png" class="icon-menu-setting" alt="" />
+            &#160;&#160;&#160;&#160;
+            <div>ໂປຣຟາຍ</div>
+          </div>
+          <div class="setting-yellow-menu" id="open-history">
+            <img src="../../images/logged-in/setting-menu/return.png" class="icon-menu-setting" alt="" />
+            &#160;&#160;&#160;&#160;
+            <div>ປະຫວັດ</div>
+          </div>
+          <div class="setting-yellow-menu" id="open-change-password">
+            <img src="../../images/logged-in/setting-menu/pass.png" class="pass-menu-setting" alt="" />
+            &#160;&#160;&#160;&#160;
+            <div>ປ່ຽນລະຫັດ</div>
+          </div>
+          <div class="setting-yellow-menu">
+            <img src="../../images/logged-in/setting-menu/line.png" class="icon-menu-setting" alt="" />
+            &#160;&#160;&#160;&#160;
+            <div>ຕິດຕໍ່ພະນັກງານ</div>
+          </div>
+          <a href="../../modules/authen/index.html">
+            <div class="setting-red-menu">
+              <img src="../../images/logged-in/setting-menu/exit.png" class="icon-menu-setting" alt="" />
+              &#160;&#160;&#160;&#160;
+              <div>ອອກຈາກລະບົບ</div>
+            </div>
+          </a>
+          <img src="../../images/logged-in/setting-menu/store-frame.png" class="store-frame-image" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- mini game -->
+  <div class="minigame-box" id="minigame-box">
+    <div class="minigame-box-background">
+      <div class="minigame-box-body">
+        <div class="minigame-header-text">
+          <div class="wallet-text-none"></div>
+          <div class="minigame-text">ສຸ່ມຄືນຍອດ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="minigame-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="minigame-menu-box"></div>
+      </div>
+    </div>
+  </div>
+  <!-- deposit channel -->
+  <div class="depositchannel-box" id="depositchannel-box">
+    <div class="depositchannel-box-background">
+      <div class="depositchannel-box-body">
+        <div class="wallet-header-text">
+          <div class="wallet-text-none"></div>
+          <div class="wallet-text">ຝາກ-ຖອນ</div>
+          <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" id="depositchannel-close-icon"
+            alt="close-wallet-button" />
+        </div>
+        <div class="depositchannel-menu-box">
+          <div class="depositchannel-box-0">
+            <div class="depositchannel-box-1" id="openWithdrawAutoMobile">
+              <img src="../../images/logged-in/deposit-withdraw/1.png" class="depositchannel-icon" alt="" />
+              &#160;
+              <div>ຝາກເງິນອໍໂຕ້</div>
+            </div>
+            <div class="depositchannel-box-1" id="openDeposit">
+              <img src="../../images/logged-in/deposit-withdraw/2.png" class="depositchannel-icon" alt="" />
+              &#160;
+              <div>ຖອນເງິນ</div>
+            </div>
+            <div class="depositchannel-box-1" id="openWthdrawQRMobile">
+              <img src="../../images/logged-in/deposit-withdraw/3.png" class="depositchannel-icon" alt="" />
+              &#160;
+              <div>QR PAY</div>
+            </div>
+            <div class="depositchannel-box-1" id="openWithdrawFavoriteMobile">
+              <img src="../../images/logged-in/deposit-withdraw/4.png" class="depositchannel-icon" alt="" />
+              &#160;
+              <div>ຝາກເງິນທົດສະນິຍົມ</div>
+            </div>
+            <div class="depositchannel-box-1" id="openWithdrawConfirmMobile">
+              <img src="../../images/logged-in/deposit-withdraw/5.png" class="depositchannel-icon" alt="" />
+              &#160;
+              <div>ຍືນຍັນຍອດຝາກ</div>
+            </div>
+            <div class="depositchannel-box-1" id="openWithdrawTruemoneyMobile">
+              <img src="../../images/logged-in/deposit-withdraw/6.png" class="depositchannel-icon" alt="" />
+              &#160;
+              <div>Truemoney</div>
+            </div>
+          </div>
+          <div class="depositchannel-text-1">ຖ້າທ່ານພົບບັນຫາ ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-background">
+    <div class="middle-of-the-night">
+      <div class="body-middle">
+        <h4 class="title">QUEST</h4>
+        <div class="quest-list">
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+          <div class="quest-item">
+            <div class="bar">
+              <h4>ล็อกอินครบ 7 วัน</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="204" height="43" viewBox="0 0 204 43" fill="none">
+                <g clip-path="url(#clip0_14_26690)">
+                  <g opacity="0.35">
+                    <path d="M189.798 16.0879H23.0005V42.9999H189.798V16.0879Z" fill="url(#paint0_linear_14_26690)" />
+                  </g>
+                  <path d="M166.798 3.05176e-05H0.000488281V26.912H166.798V3.05176e-05Z"
+                    fill="url(#paint1_linear_14_26690)" />
+                  <rect x="30.0005" y="32" width="132" height="8" rx="1" fill="#161616" />
+                  <rect x="31.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="37.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="43.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="49.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="55.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="61.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="67.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="73.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="79.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="109" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="139" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="85.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="115" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="145" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="91.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="121" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="151" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="97.0005" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="127" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="157" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="103" y="33" width="4" height="6" fill="#00FF47" />
+                  <rect x="133" y="33" width="4" height="6" fill="#00FF47" />
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_14_26690" x1="23.0005" y1="29.5439" x2="189.798" y2="29.5439"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_14_26690" x1="0.000488281" y1="13.456" x2="166.798" y2="13.456"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0071BC" />
+                    <stop offset="1" stop-color="#00FFFF" />
+                  </linearGradient>
+                  <clipPath id="clip0_14_26690">
+                    <rect width="204" height="43" fill="white" transform="translate(0.000488281 3.05176e-05)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <small>100%</small>
+            </div>
+            <div class="status">
+              เสร็จสิ้น
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-logo-1">LOGO</div>
+    <img src="../../images/mancala-logo.png" class="home-logo-2" alt="home-logo-2" />
+    <div class="select-profile-box" id="select-profile-box">
+      <div class="select-profile-card">
+        <img class="bg-profile-card" src="../../images/pic-profile/Frame-Profile.png" alt="" />
+        <div class="text-profile">
+          ໂປຣຟາຍ
+        </div>
+        <div class="in-card-profile">
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 2.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 3.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 4.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 5.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 6.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 7.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 8.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 9.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+          <img class="img-profile" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="home-mobile-top-box">
+      <div class="profile-box-mobile">
+        <div class="profile-image-box-mobile" id="profile-image-box-mobile">
+          <img src="../../images/logged-in/user-profile.png" class="user-profile-mobile" alt="user-profile" />
+        </div>
+        <div class="arrow-right-mobile" id="arrow-right-mobile">
+          <img src="../../images/logged-in/arrow-right-double.png" class="arrow-right-image" alt="arrow-right-double" />
+        </div>
+        <div class="username-box-mobile" id="username-box-mobile">
+          <img src="../../images/logged-in/username-border.png" class="username-border" alt="username-border" />
+          <div class="user-text-box">
+            <div class="text-level">Lv.19</div>
+            <div class="text-user">User</div>
+            <div class="text-name">Cala 99999999</div>
+            <div class="text-exp">Exp</div>
+          </div>
+        </div>
+      </div>
+      <img src="../../images/mobile/logo-1.png" class="home-mobile-logo-2" id="home-mobile-logo-2"
+        alt="home-mobile-logo-2" />
+      <div class="main-menu-box" id="open-setting">
+        <div class="menu-box-mobile">
+          <img src="../../images/logged-in/setting-icon.png" class="menu-icon-mobile" alt="setting-mobile" />
+        </div>
+        <div class="menu-text">ຕັ້ງຄ່າ</div>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" style="
+      padding-left: 9px;
+      margin-top: 10px;
+  "
+        viewBox="0 0 512 512">
+        <path fill="#595959"
+          d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+      </svg>
+      <input type="text" class="search-input" placeholder="ຄົ້ນຫາ" />
+    </div>
+
+    <div class="home-mobile-top-box-2">
+
+      <div class="main-menu-box" id="open-quest">
+        <div class="menu-box-mobile">
+          <img src="../../images/logged-in/question-icon.png" class="menu-icon-mobile" alt="question-mobile" />
+        </div>
+        <div class="menu-text">ພາລະກິດ</div>
+      </div>
+      <div class="resource-box">
+        <div class="resource-score-box">
+          <img src="../../images/logged-in/coin-icon.png" class="resource-icon" alt="user-coin" />
+          <div class="text-score">0.00</div>
+        </div>
+        &#160;&#160;
+        <div class="resource-score-box">
+          <img src="../../images/logged-in/demon-icon.png" class="resource-icon" alt="user-demon" />
+          <div class="text-score">0.00</div>
+        </div>
+      </div>
+      <div class="main-menu-box" id="on-change-layout">
+        <div class="menu-box-mobile">
+          <img src="../../images/logged-in/menu-icon.png" class="menu-icon-mobile" alt="menu-mobile" />
+        </div>
+        <div class="menu-text">ປ່ຽນຮູບແບບ</div>
+      </div>
+    </div>
+    <div class="mobile-search-menu">
+      <div class="mobile-header-menu">ສະລ໋ອດ</div>
+      <div class="mobile-header-menu">ຄາສິໂນ</div>
+      <div class="mobile-header-menu">ຍີງປາ</div>
+      <div class="mobile-header-menu">ກິລາ</div>
+      <div class="mobile-header-menu">ຫວຍ</div>
+    </div>
+    <div class="home-banner">
+      <img src="../../images/logged-in/background-2.png" class="banner-image-background"
+        alt="banner-image-background" />
+      <div class="home-banner-box" id="home-banner-box">
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/23.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/14.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/5.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/10.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/18.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/15.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+        <div class="game-card">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-image"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/13.png" id="game-card" class="game-image" alt="game-image" />
+          <img src="../../images/logged-in/game-border.png" class="game-border-image" id="game-border-image"
+            alt="game-border-image" />
+        </div>
+      </div>
+      <div class="home-banner-box-column" id="home-banner-box-column">
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/23.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/14.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/5.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/10.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/18.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/15.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+        <div class="game-column active-game">
+          <img src="../../images/mobile/demon-inactive.png" class="game-demon-inactive-column"
+            id="game-demon-inactive-image" alt="" />
+          <img src="../../images/games/13.png" class="game-image-column" id="game-image" alt="game-image" />
+        </div>
+      </div>
+      <div class="profile-box">
+        <div class="profile-image-box"> 
+          <img src="../../images/logged-in/user-profile.png" class="user-profile" alt="user-profile"/>
+        </div>
+        <div class="username-box">
+          <img src="../../images/logged-in/username-border.png" class="username-border" alt="username-border" />
+          <div class="user-text-box">
+            <div class="text-level">Lv.19</div>
+            <div class="text-user">User</div>
+            <div class="text-name">Cala 99999999</div>
+            <div class="text-exp">Exp</div>
+          </div>
+        </div>
+      </div>
+      <div class="noti-box">
+        <img src="../../images/logged-in/noti-border.png" class="noti-border" alt="noti-border" />
+        <img src="../../images/logged-in/nito-text-image.png" class="noti-text-image" alt="noti-text-image" />
+        <div class="text-noti">ລະບົບແຈ້ງເຕືອນ</div>
+      </div>
+    </div>
+
+    <div class="mobile-partner-menu" >
+      <div class="arrow-right-mobile-partner" id="partner-card">
+        <img src="../../images/logged-in/arrow-right-double.png" class="user-profile-mobile" alt="user-profile"/>
+      </div>
+      <div class="partner-list-box" >
+        <div class="partner-logo-box">
+          <img src="../../images/mancala-logo.png" class="partner-logo" alt="mancala-logo-1" />
+        </div>
+        <div class="partner-logo-box">
+          <img src="../../images/partnerships/1.png" class="partner-logo" alt="mancala-logo-2" />
+        </div>
+        <div class="partner-logo-box">
+          <img src="../../images/partnerships/3.png" class="partner-logo" alt="mancala-logo-3" />
+        </div>
+        <div class="partner-logo-box">
+          <img src="../../images/partnerships/4.png" class="partner-logo" alt="mancala-logo-4" />
+        </div>
+        <div class="partner-logo-box">
+          <img src="../../images/partnerships/5.png" class="partner-logo" alt="mancala-logo-1" />
+        </div>
+        <div class="partner-logo-box">
+          <img src="../../images/partnerships/6.png" class="partner-logo" alt="mancala-logo-3" />
+        </div>
+        <div class="partner-logo-box">
+          <img src="../../images/partnerships/7.png" class="partner-logo" alt="mancala-logo-2" />
+        </div>
+      </div>
+    </div>
+    <div class="select-profile-card2" id="select-profile-card2">
+      <img class="bg-profile-card2" src="../../images/pic-profile/Frame-Profile.png" alt="" />
+      <div class="in-card-profile2">
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 2.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 3.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 4.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 5.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 6.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 7.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 8.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 9.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+        <img class="img-profile2" src="../../images/pic-profile/Ellipse 10.png" alt="" />
+      </div>
+    </div>
+    <div class="left-menu">
+      <div class="resource-box">
+        <div class="resource-score-box">
+          <img src="../../images/logged-in/coin-icon.png" class="resource-icon" alt="user-coin" />
+          <div class="text-score">0.00</div>
+        </div>
+        <div class="resource-score-box">
+          <img src="../../images/logged-in/demon-icon.png" class="resource-icon" alt="user-demon" />
+          <div class="text-score">0.00</div>
+        </div>
+      </div>
+      <div class="profile-menu" data-bs-toggle="modal" data-bs-target="#profileDesktop" data-bs-dismiss="modal">
+        <img src="../../images/logged-in/person-icon.png" class="person-icon" alt="person-icon" />
+        <div class="person-text">ໂປຣຟາຍ</div>
+      </div>
+    </div>
+    <div class="right-menu">
+      <div class="history-menu" onclick="myFunction()">
+        <img src="../../images/logged-in/history-icon.png" class="history-icon" alt="history-icon" />
+        <div class="person-text">ປະຫວັດ</div>
+      </div>
+      <div class="password-menu" data-bs-toggle="modal" data-bs-target="#changePasswordDesktop" data-bs-dismiss="modal">
+        <img src="../../images/logged-in/password-icon.png" class="password-icon" alt="paaword-icon" />
+        <div class="person-text">ປ່ຽນລະຫັດ</div>
+      </div>
+      <a href="../authen/index.html" style="text-decoration: none; margin-top: 5px">
+        <div class="logout-menu">
+          <img src="../../images/logged-in/logout-icon.png" class="logout-icon" alt="logout-icon" />
+          <div class="person-text">ອອກຈາກລະບົບ</div>
+        </div>
+      </a>
+    </div>
+    <div class="bottom-left-menu" style="z-index: 9999999;">
+      <img src="../../images/logged-in/activity-border.png" class="activity-border" alt="activity-border" />
+      <div class="activity-box" id="quest-modal-button">
+        <img src="../../images/logged-in/activity-icon.png" class="activity-icon" alt="activity-icon" />
+        <div class="activity-text">ພາລະກິດ</div>
+      </div>
+    </div>
+    <div class="bottom-right-menu" data-bs-toggle="modal" data-bs-target="#depositWithdraw" data-bs-dismiss="modal">
+      <img src="../../images/logged-in/wallet-border.png" class="activity-border" alt="wallet-border" />
+      <div class="activity-box">
+        <img src="../../images/logged-in/wallet-icon.png" class="activity-icon" alt="wallet-icon" />
+        <div class="activity-text">ກະເປົາ</div>
+      </div>
+    </div>
+    <div class="home-button">
+      <div class="home-button-login" data-bs-toggle="modal" data-bs-target="#withdrawDesktop" data-bs-dismiss="modal">
+        ຝາກເງິນ</div>
+      <div class="home-button-register" data-bs-toggle="modal" data-bs-target="#depositDesktop" data-bs-dismiss="modal">
+        ຖອນເງິນ</div>
+    </div>
+    <div class="home-button-mobile">
+      <div class="home-button-box-1">
+        <div class="follow-box" id="toggleDisplayFavorite">
+          <img src="../../images/logged-in/follow-icon.png" class="follow-icon" alt="follow-icon" />
+          <div class="follow-text">ເກມທີ່ມັກ</div>
+        </div>
+        <div class="home-button-login" id="open-depositchannel">ຝາກເງິນ</div>
+        <div class="home-button-register" id="open-withdraw">ຖອນເງິນ</div>
+        <div class="hidden-box"></div>
+      </div>
+      <div class="home-button-box-2">
+        <div class="other-box" id="open-minigame">
+          <img src="../../images/logged-in/mobile-return.png" class="other-border" alt="other-border" />
+          <div class="other-text">
+            <img src="../../images/logged-in/mobile-coin.png" class="other-icon" alt="mobile-icon" />
+            &#160; ຄືນຍອດເສຍ
+          </div>
+        </div>
+        <div class="credit-box-buttom" id="open-credit">
+          <img src="../../images/logged-in/withdraw.png" class="home-button-give-credit-border"
+            alt="home-button-give-credit-border" />
+          <div class="home-button-give-credit">ເຄດິດຟຣີ</div>
+        </div>
+        <div class="other-box" id="open-wallet">
+          <img src="../../images/logged-in/mobile-wallet.png" class="other-border" alt="mobile-border" />
+          <div class="other-text">
+            <img src="../../images/logged-in/wallet-icon.png" class="other-icon" alt="mobile-icon" />
+            &#160; ກະເປົາ
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- windows deposit -->
+    <div class="modal" id="depositWithdraw" aria-labelledby="depositWithdraw" aria-hidden="true">
+      <div class="modal-bag">
+        <div class="bag-body">
+          <div class="bag-menu">
+            <div class="left">
+              <div class="make-get-a-promotion" data-bs-toggle="modal" data-bs-target="#make-get-a-promotion"
+                data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/Vector.png" alt="cion" />
+                <div>ຮັບໂປຣ</div>
+              </div>
+              <div class="deposit-for-interest" data-bs-toggle="modal" data-bs-target="#deposit-for-interest"
+                data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/deposit-for-interest.png" alt="cion" />
+                <div style="
+                font-size: 15px;
+            ">ຝາກກິນດອກ</div>
+              </div>
+              <div class="free-credit" data-bs-toggle="modal" data-bs-target="#credit-free" data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/free-credit.png" alt="cion" />
+                <div>ເຄດິດຟຣີ</div>
+              </div>
+              <div class="wheel" data-bs-toggle="modal" data-bs-target="#wheel" data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/wheel.png" alt="cion" />
+                <div>ກົງລໍ້</div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="make-money" data-bs-toggle="modal" data-bs-target="#make-money" data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/Frame.png" alt="cion" />
+                <div>ສ້າງລາຍໄດ້</div>
+              </div>
+              <div class="free-crystal" data-bs-toggle="modal" data-bs-target="#free-crystal" data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/free-crystal.png" alt="cion" />
+                <div>ຄິສຕໍຟຣີ</div>
+              </div>
+              <div class="code" data-bs-toggle="modal" data-bs-target="#code-input" data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/code.png" alt="cion" />
+                <div>ໃສ່ໂຄ້ດ</div>
+              </div>
+              <div class="return-the-lost-amount" data-bs-toggle="modal" data-bs-target="#cashback"
+                data-bs-dismiss="modal">
+                <img src="../../images/bag-mobal/return-the-lost-amount.png" alt="cion" />
+                <div>ຄືນຍອດ</div>
+              </div>
+            </div>
+          </div>
+          <div class="bag-bottom">
+            <div class="bag-btn">
+              <div>ກະເປົາ</div>
+              <img src="../../images/logged-in/x-button.png" class="wallet-close-icon" alt="close-wallet-button"
+                data-bs-dismiss="modal" aria-label="Close" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ########### ชวนเพื่อนแล้วรวย ################ -->
+    <div class="modal" id="make-money" aria-labelledby="make-money" aria-hidden="true">
+      <div class="modal-make-money">
+        <div class="body-make-money">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">ຊວນໝູ່ແລ້ວລວຍ</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="content">
+            <div class="card-make-money">
+              <div class="receive-friend">
+                <div class="friend">
+                  <div>ຈຳນວນໝູ່
+                    ທັງໝົດ</div>
+                  <div>0</div>
+                </div>
+                <div class="today-income">
+                  <div>ລາຍໄດ້ມື້ນີ້</div>
+                  <div>0.00</div>
+                </div>
+              </div>
+              <div class="income-qr">
+                <div class="total-income">
+                  <div class="text">ລາຍໄດ້ທັງໝົດ</div>
+                  <div class="number">0.00</div>
+                  <div class="text-2">ລະບົບຈຳຄຳນວນ
+                    ທຸກທ່ຽງຄືນ</div>
+                </div>
+                <div class="qr-code">
+                  <div class="custom-img">
+                    <img src="/images/make-money/qr-imge.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="btn-foodter">
+                <div class="credit">
+                  <button>ຖອນເຂົ້າເຄດິດ</button>
+                  <div>ຖອນຂັ້ນຕໍ່າ 1 ບາດ</div>
+                </div>
+                <div class="account">
+                  <button>ຖອນເຂົ້າບັນຊີ</button>
+                  <div>ປິດໃຊ້ງານລະບົບຖອນເຂົ້າບັນຊີ</div>
+                </div>
+              </div>
+            </div>
+            <div class="text-footer">
+              <div class="text-1">ລີ້ງແນະນຳໝູ່</div>
+              <div class="text-2">ເຈົ້າຈະໄດ້ຮັບລາຍໄດ້ເພີ່ມຈາກການເຊີນໝູ່</div>
+            </div>
+            <div class="link-code">
+              <input type="text" />
+              <div class="btn-copy">ຄັດລອກ</div>
+            </div>
+            <div class="invite-friends1">
+              <div class="header1">ຕາລາງຮັບເຄດິດຟຣີ ຊວນໝູ່</div>
+              <div class="body1">
+                <div>ຊື່ຜູ້ໃຊ້</div>
+                <div>ວັນທີ່</div>
+                <div>ຍອດຝາກ</div>
+                <div>ສະຖານະ</div>
+              </div>
+              <div class="footer1">ກົດຄັດລອກລິ້ງແລ້ວສົ່ງໃຫ້ໝູ່ຂອງທ່ານສະໝັກໄດ້ເລີຍ.</div>
+            </div>
+            <div class="invite-friends1">
+              <div class="header1">ປະຫວັດການຫາລາຍໄດ້ຈາກໝູ່ເພື່ອນ</div>
+              <div class="body1">
+                <div>ຊື່ຜູ້ໃຊ້</div>
+                <div>ຍອດຫຼີ້ນ</div>
+                <div>ຍອດເສຍ</div>
+                <div>ດອກເບີ້ຍ</div>
+              </div>
+              <div class="footer1">ກົດຄັດລອກລິ້ງແລ້ວສົ່ງໃຫ້ໝູ່ຂອງທ່ານສະໝັກໄດ້ເລີຍ.</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### กงล้อ ################ -->
+    <div class="modal" id="wheel" aria-labelledby="wheel" aria-hidden="true">
+      <div class="modal-wheel">
+        <div class="body-wheel">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">ກົງລໍ້</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-whell">
+            <div class="data">
+              <div class="text-1">ແຕ້ມທັງໝົດ : 0.00</div>
+              <div class="text-2">10 ແຕ້ມ ໝູນວົງລໍ້ໄດ້ 1 ເທື່ອ</div>
+            </div>
+            <div class="img-wheel">
+              <img src="/images/make-money/img-wheel.png" alt="wheel" />
+            </div>
+            <div class="btn-wheel-credit">
+              <button>ໝູນກົງລໍ້</button>
+            </div>
+            <div class="footer">
+              <div class="credit-wheel">ເຄດິດກົງລໍ້ : 0.00</div>
+              <div class="count">
+                <div class="count-money">ຈຳນວນເງິນ</div>
+              </div>
+              <div class="text-warring">ແລກເງິນເຂົ້າເຄດິດ ຂັ້ນຕໍ່າ 100.00</div>
+              <div class="btn-exchange-credit">
+                <button>ແລກເງິນເຂົ້າເຄດິດ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ########### เครดิตฟรี ################ -->
+    <div class="modal" id="credit-free" aria-labelledby="credit-free" aria-hidden="true">
+      <div class="modal-credit-free">
+        <div class="body-credit-free">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">ເຄດິດຟຣີ</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-credit-free">
+            <div class="not-credit-free">
+              <img src="/images/make-money/coin.svg" alt="coin" />
+              <div class="text">ບໍ່ມີລາຍການ
+                ເຄດິດຟຣີ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### คริสตัลฟรี ################ -->
+    <div class="modal" id="free-crystal" aria-labelledby="free-crystal" aria-hidden="true">
+      <div class="modal-free-crystal">
+        <div class="body-free-crystal">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">ຄິດຕໍຟຣີ</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-free-crystal">
+            <div class="not-free-crystal">
+              <img src="/images/make-money/free-crystal.svg" alt="coin" />
+              <div class="text">ບໍ່ມີລາຍການ
+                ຄິດຕໍຟຣີ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### เลือกรับโบนัส ################ -->
+    <div class="modal" id="make-get-a-promotion" aria-labelledby="make-get-a-promotion" aria-hidden="true">
+      <div class="modal-make-get-a-promotion">
+        <div class="body-make-get-a-promotion">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">ເລືອກຮັບໂບນັດ</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-make-get-a-promotion">
+            <div class="show-coin">
+              <div class="card-coin">
+                <img src="/images/make-money/small-coin.svg" alt="small coin" />
+                <div class="text">00.0</div>
+              </div>
+            </div>
+            <div class="fixed-scroll">
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">ຝາກບິລແລກຂອງມື້</div>
+                  <div class="where">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+                  <div class="icon" onclick="selectFirstBill()"><img src="/images/make-money/icon-down.png" alt="icon"
+                      class="icon-down" /></div>
+                </div>
+              </div>
+              <div class="select-list" id="selectList" style="display: none">
+                <img src="/images/make-money/select-list.svg" alt="" />
+              </div>
+
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">ບິລສອງຂອງມື້ 300%</div>
+                  <div class="where">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+                  <div class="icon"><img src="/images/make-money/icon-down.png" alt="icon" class="icon-down" /></div>
+                </div>
+              </div>
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">ໂບນັດໝົດມື້ 100%</div>
+                  <div class="where">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+                  <div class="icon"><img src="/images/make-money/icon-down.png" alt="icon" class="icon-down" /></div>
+                </div>
+              </div>
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">ໂບນັດໝົດມື້ 50%</div>
+                  <div class="where">ບໍ່ເຂົ້າເງື່ອນໄຂ</div>
+                  <div class="icon"><img src="/images/make-money/icon-down.png" alt="icon" class="icon-down" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### ฝากกินดอก ################ -->
+    <div class="modal" id="deposit-for-interest" aria-labelledby="deposit-for-interest" aria-hidden="true">
+      <div class="modal-deposit-for-interest">
+        <div class="body-deposit-for-interest">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">ຝາກກິນດອກ</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-deposit-for-interest">
+            <div class="show-coin">
+              <div class="card-coin">
+                <img src="/images/make-money/small-coin.svg" alt="small coin" />
+                <div class="text">00.0</div>
+              </div>
+            </div>
+            <div class="fixed-scroll">
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">1 ມື້</div>
+                  <div class="where">ດອກເບີ້ຍ 20 %</div>
+                  <div class="icon" onclick="selectDropdow()"><img src="/images/make-money/icon-down.png" alt="icon"
+                      class="icon-down" /></div>
+                </div>
+              </div>
+              <div class="select-list" id="detailSelect" style="display: none">
+                <div class="img-list">
+                  <div class="description">
+                    <div class="principal">
+                      <div>เงินต้น 100.00</div>
+                      <div>ດອກເບີ້ຍ 20 %</div>
+                    </div>
+                    <div class="currently">
+                      <div>ปัจจุบัน 120.0000</div>
+                      <div>ยอดรวม 120.00</div>
+                    </div>
+                    <div class="due-now">ครบกำหนดแล้ว</div>
+                    <div class="number">120.00</div>
+                    <div class="btn-withdraw">
+                      <button>ถอนเงิน</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- <img src="/images/make-money/interest-list.svg" alt=""> -->
+              </div>
+
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">1 ມື້</div>
+                  <div class="where">ດອກເບີ້ຍ 20 %</div>
+                </div>
+              </div>
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">1 ມື້</div>
+                  <div class="where">ດອກເບີ້ຍ 20 %</div>
+                  <div class="icon"><img src="/images/make-money/icon-down.png" alt="icon" class="icon-down" /></div>
+                </div>
+              </div>
+              <div class="first-bill-of-the-day">
+                <div class="description">
+                  <div class="title-text">1 ມື້</div>
+                  <div class="where">ດອກເບີ້ຍ 20 %</div>
+                  <div class="icon"><img src="/images/make-money/icon-down.png" alt="icon" class="icon-down" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### คืนยอดเสีย ################ -->
+    <div class="modal" id="cashback" aria-labelledby="cashback" aria-hidden="true">
+      <div class="modal-cashback">
+        <div class="body-cashback">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">CASHBACK</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-cashback" data-bs-toggle="modal" data-bs-target="#cashback-slot" data-bs-dismiss="modal">
+            <div class="cashback-detail">
+              <img src="/images/make-money/slod.svg" alt="coin" />
+              <div class="text">
+                <div>ສະລ໋ອດ</div>
+                <div>ຄືນຍອດເສຍ 5.0%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### cashback slot ################ -->
+    <div class="modal" id="cashback-slot" aria-labelledby="cashback-slot" aria-hidden="true">
+      <div class="modal-cashback-slot">
+        <div class="body-cashback-slot">
+          <div class="title">
+            <img src="/images/logged-in/arrow-back.png" alt="arrow-back" class="arrow-back" data-bs-toggle="modal"
+              data-bs-target="#depositWithdraw" data-bs-dismiss="modal" />
+            <div class="text">
+              <div class="title1">CASHBACK STOT</div>
+              <div class="title2">ຄືນຍອດເສຍເກມ ສະລ໋ອດ</div>
+            </div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-cashback-slot" data-bs-toggle="modal" data-bs-target="#cashback" data-bs-dismiss="modal">
+            <div class="loss-amount">
+              <div class="amount">
+                <div>ຍອດເສຍສະສົມ 0</div>
+                <div>ຍອດເສຍສະສົມ 0</div>
+              </div>
+              <div class="amount-day">
+                <div>ຍອດເສຍມື້ນີ້ 0</div>
+                <div>ປະຫວັດການຮັບ</div>
+              </div>
+              <div class="total-amount">
+                <div>ຍອດເສຍຂອງເຈົ້າ</div>
+                <div style="font-size: 25px; font-weight: 600; margin-top: 15px">0</div>
+              </div>
+            </div>
+            <div class="receive-credit">
+              <button>ຮັບເຂົ້າເຄດິດ</button>
+            </div>
+            <div class="account">
+              <button>ຖອນເຂົ້າບັນຊີ</button>
+            </div>
+            <div class="minimum">
+              <div>ຂັ້ນຕ່ຳ 1, ສູງສຸດ 10000</div>
+              <div class="close">ປິດໃຊ້ງານກ່ອນເຂົ້າບັນຊີ</div>
+            </div>
+            <div class="read-the-rules">
+              <div>ອ່ານກົດກະຕິກາ</div>
+              <img src="/images/make-money/quation.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ########### กรอกโค้ด ################ -->
+    <div class="modal" id="code-input" aria-labelledby="code-input" aria-hidden="true">
+      <div class="modal-code-input">
+        <div class="body-code-input">
+          <div class="title">
+            <div class="text">ໃສ່ໂຄ້ດ</div>
+            <img src="/images/logged-in/x-button.png" alt="close" class="close" data-bs-dismiss="modal" />
+          </div>
+          <div class="card-code-input">
+            <input class="input-field" placeholder="ກາລຸນາປ້ອນໃສ່ໂຄ້ດ" type="text" />
+            <button>ຍືນຍັນ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- withdraw desktop -->
+  <div class="modal" id="withdrawDesktop" aria-labelledby="withdrawDesktop" aria-hidden="true">
+    <div class="withdraw-desktop-modal-bag">
+      <div class="withdraw-desktop-bag-body">
+        <div class="withdraw-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <div>ຝາກເງິນ</div>
+          <img src="../../images/logged-in/x-button.png" class="withdraw-desktop-wallet-close-icon"
+            alt="close-wallet-button" data-bs-dismiss="modal" aria-label="Close" />
+        </div>
+        <div class="withdraw-desktop-bag-menu">
+          <div class="withdraw-desktop-menu-box" data-bs-toggle="modal" data-bs-target="#withdrawAutoDesktop"
+            data-bs-dismiss="modal">
+            <img src="../../images/logged-in/deposit-withdraw/1.png" alt="" />
+            <div>ຝາກເງິນອໍໂຕ້</div>
+          </div>
+          <div class="withdraw-desktop-menu-box" data-bs-toggle="modal" data-bs-target="#withdrawFavoriteDesktop"
+            data-bs-dismiss="modal">
+            <img src="../../images/logged-in/deposit-withdraw/4.png" alt="" />
+            <div>ຝາກເງິນທົດສະນິຍົມ</div>
+          </div>
+          <div class="withdraw-desktop-menu-box" data-bs-toggle="modal" data-bs-target="#withdrawQRDesktop"
+            data-bs-dismiss="modal">
+            <img src="../../images/logged-in/deposit-withdraw/3.png" alt="" />
+            <div>QR PAY</div>
+          </div>
+          <div class="withdraw-desktop-menu-box" data-bs-toggle="modal" data-bs-target="#withdrawTruemoneyDesktop"
+            data-bs-dismiss="modal">
+            <img src="../../images/logged-in/deposit-withdraw/6.png" alt="" />
+            <div>Truemoney</div>
+          </div>
+          <div class="withdraw-desktop-menu-box" data-bs-toggle="modal" data-bs-target="#withdrawConfirmDesktop"
+            data-bs-dismiss="modal">
+            <img src="../../images/logged-in/deposit-withdraw/5.png" alt="" />
+            <div>ຍືນຍັນຍອດຝາກ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw auto -->
+  <div class="modal" id="withdrawAutoDesktop" aria-labelledby="withdrawAutoDesktop" aria-hidden="true">
+    <div class="withdraw-auto-desktop-modal-bag">
+      <div class="withdraw-auto-desktop-bag-body">
+        <div class="withdraw-auto-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <img src="/images/logged-in/arrow-back.png" style="cursor: pointer;" alt="arrow-back" data-bs-toggle="modal"
+            data-bs-target="#withdrawDesktop" data-bs-dismiss="modal" />
+          <div>ຝາກເງິນອໍໂຕ້</div>
+          <img src="../../images/logged-in/x-button.png" style="cursor: pointer;" alt="close-wallet-button"
+            data-bs-dismiss="modal" aria-label="Close" />
+        </div>
+        <div class="withdraw-auto-desktop-bag-menu">
+          <div class="withdraw-auto-desktop-bank-box">
+            <img src="../../images/logged-in/desktop/scb.png" alt="" />
+            <div class="content">
+              <div>SCB</div>
+              <div class="in-copy">
+                <div>999-9-99999-9</div>
+                <img src="/images/img-copy.svg" alt="">
+              </div>
+              <div>ມມມກກກດດດກກຫ</div>
+            </div>
+          </div>
+          <div class="withdraw-auto-desktop-noti-box">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ</div>
+          <div class="withdraw-auto-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw favorite -->
+  <div class="modal" id="withdrawFavoriteDesktop" aria-labelledby="withdrawFavoriteDesktop" aria-hidden="true">
+    <div class="withdraw-favorite-desktop-modal-bag">
+      <div class="withdraw-favorite-desktop-bag-body">
+        <div class="withdraw-favorite-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" data-bs-toggle="modal"
+            data-bs-target="#withdrawDesktop" data-bs-dismiss="modal" />
+          <div>ຝາກເງິນທົດສະນິຍົມ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="withdraw-favorite-desktop-bag-menu">
+          <div class="withdraw-favorite-desktop-text-price">• ຝາກຂັ້ນຕໍ່າ 1.00 ບາດ ສູງສຸດ 2,000.00 ບາດ</div>
+          <input type="text" placeholder="ປ້ອນຈຳນວນເງິນທີ່ຕ້ອງການຝາກ" class="withdraw-favorite-desktop-input-price" />
+          <div class="withdraw-favorite-desktop-warning-text">ກາລຸນາປ້ອນຂໍ້ມູນ</div>
+          <div class="withdraw-favorite-desktop-button" data-bs-toggle="modal"
+            data-bs-target="#withdrawFavorite2Desktop" data-bs-dismiss="modal">
+            ຍືນຍັນຈຳນວນເງິນ
+          </div>
+          <div class="withdraw-favorite-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw favorite 2 -->
+  <div class="modal" id="withdrawFavorite2Desktop" aria-labelledby="withdrawFavorite2Desktop" aria-hidden="true">
+    <div class="withdraw-favorite2-desktop-modal-bag">
+      <div class="withdraw-favorite2-desktop-bag-body">
+        <div class="withdraw-favorite2-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" data-bs-toggle="modal"
+            data-bs-target="#withdrawFavoriteDesktop" data-bs-dismiss="modal" />
+          <div>ຝາກເງິນທົດສະນິຍົມ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="withdraw-favorite2-desktop-bag-menu">
+          <div class="withdraw-favorite2-desktop-text-price">ຍອດເງິນທີ່ຕ້ອງການໂອນ</div>
+          <div class="withdraw-favorite2-desktop-price">111.11</div>
+          <div class="withdraw-favorite2-desktop-text-price">ກາລຸນາໂອນເງິນພາຍໃນ <span
+              style="color: #d82148">00.00</span>
+            ນາທີ</div>
+          <div class="withdraw-favorite2-desktop-bank-box">
+            <img src="../../images/logged-in/k-bank.png" alt="" />
+            <div class="withdraw-favorite2-desktop-bank-text-box">
+              <div>KBANK</div>
+              <div>026-0-00000-0</div>
+              <div>ທ້າວ ກກກກກກ</div>
+            </div>
+          </div>
+          <div class="withdraw-favorite2-desktop-button">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ</div>
+          <div class="withdraw-favorite2-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw qr code -->
+  <div class="modal" id="withdrawQRDesktop" aria-labelledby="withdrawQRDesktop" aria-hidden="true">
+    <div class="withdraw-qr-desktop-modal-bag">
+      <div class="withdraw-qr-desktop-bag-body">
+        <div class="withdraw-qr-desktop-bag-top">
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" data-bs-toggle="modal"
+            data-bs-target="#withdrawDesktop" data-bs-dismiss="modal" />
+          <div>QR PAY</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="withdraw-qr-desktop-bag-menu">
+          <div class="withdraw-qr-desktop-text-price">• ຝາກຂັ້ນຕໍ່າ 100.00 ບາດ ສູງສຸດ 50,000.00 ບາດ *</div>
+          <input type="text" placeholder="ປ້ອນຈຳນວນເງິນທີ່ຕ້ອງການຝາກ" class="withdraw-qr-desktop-input-price" />
+          <select name="bank" class="withdraw-qr-desktop-select-bank" value="">
+            <option value="bank1">ທ້າວ ກກກກກກ</option>
+            <option value="bank2">Bank 2</option>
+            <option value="bank3">Bank 3</option>
+            <option value="bank4">Bank 4</option>
+          </select>
+          <div class="withdraw-qr-desktop-button" data-bs-toggle="modal" data-bs-target="#withdrawQR2Desktop"
+            data-bs-dismiss="modal">
+            ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ
+          </div>
+          <div class="withdraw-qr-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw qr code 2 -->
+  <div class="modal" id="withdrawQR2Desktop" aria-labelledby="withdrawQR2Desktop" aria-hidden="true">
+    <div class="withdraw-qr2-desktop-modal-bag">
+      <div class="withdraw-qr2-desktop-bag-body">
+        <div class="withdraw-qr2-desktop-bag-top">
+          <img src="../../images/logged-in/desktop/back-icon.png" data-bs-toggle="modal"
+            data-bs-target="#withdrawQRDesktop" data-bs-dismiss="modal" />
+          <div>QR PAY</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="withdraw-qr2-desktop-bag-menu">
+          <div class="withdraw-qr2-desktop-text-price">ຈຳນວນເງິນຝາກຜ່ານ QR Code</div>
+          <div class="withdraw-qr2-desktop-price">111.11 ບາດ</div>
+          <div class="withdraw-qr2-desktop-text-price">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກເທົ່ານັ້ນ</div>
+          <div class="withdraw-qr2-desktop-box"></div>
+          <div class="withdraw-qr2-desktop-button">ບັນທຶກຮູບເພື່ອທຸລະກຳ</div>
+          <div class="withdraw-qr2-desktop-policy-box">ວິທີການຊຳລະເງິນ</div>
+          <div class="withdraw-qr2-desktop-detail-text">1.ບັນທຶກຮູບ ຫຼື ແຄບໜ້າຈໍ QR Code</div>
+          <div class="withdraw-qr2-desktop-detail-text">2.ເຂົ້າແອັບທະນາຄານທີ່ຕ້ອງການທຸລະກຳ</div>
+          <div class="withdraw-qr2-desktop-detail-text">
+            <span style="color: #d82148">*ຕ້ອງໃຊ້ບັນຊີທີ່ຜູກກັບລະບົບເທົ່ານັ້ນ*</span>
+          </div>
+          <div class="withdraw-qr2-desktop-detail-text">3.ກົດເລືອກສະແກນຈ່າຍໃນແອັບທະນາຄານນັ້ນໆ</div>
+          <div class="withdraw-qr2-desktop-detail-text">4.ເລືອກຮູບພາບ QR Code ທີ່ບັນທຶກຮູບ ຫຼື ແຄບໜ້າຈໍ
+            ເພື່ອເຮັດທຸລະກຳ</div>
+          <div class="withdraw-qr2-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw truemoney -->
+  <div class="modal" id="withdrawTruemoneyDesktop" aria-labelledby="withdrawTruemoneyDesktop" aria-hidden="true">
+    <div class="withdraw-truemoney-desktop-modal-bag">
+      <div class="withdraw-truemoney-desktop-bag-body">
+        <div class="withdraw-truemoney-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" data-bs-toggle="modal"
+            data-bs-target="#withdrawDesktop" data-bs-dismiss="modal" />
+          <div>Truemoney Wallet</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="withdraw-truemoney-desktop-bag-menu">
+          <div class="withdraw-truemoney-desktop-bank-box">
+            <img src="../../images/logged-in/desktop/true-money.png" alt="" />
+            <div class="content">
+              <div>Truemoney Wallet</div>
+              <div class="in-copy">
+                <div>999-9-99999-9</div>
+                <img src="/images/img-copy.svg" class="true-copy" alt="">
+              </div>
+              <div>Mr kkkkkkkkkk</div>
+            </div>
+          </div>
+          <div class="withdraw-truemoney-desktop-noti-box">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ</div>
+          <div class="withdraw-truemoney-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw confirm -->
+  <div class="modal" id="withdrawConfirmDesktop" aria-labelledby="withdrawConfirmDesktop" aria-hidden="true">
+    <div class="withdraw-confirm-desktop-modal-bag">
+      <div class="withdraw-confirm-desktop-bag-body">
+        <div class="withdraw-confirm-desktop-bag-top">
+          <img src="../../images/logged-in/desktop/back-icon.png" data-bs-toggle="modal"
+            data-bs-target="#withdrawDesktop" data-bs-dismiss="modal" />
+          <div>ຍືນຍັນຍອດຝາກ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="withdraw-confirm-desktop-bag-menu">
+          <div class="withdraw-confirm-desktop-noti-confirm">*ໃຊ້ໃນກໍລະນີທະນາຄານມີບັນຫາ ຫຼືຍອດເງິນຝາກບໍ່ເຂົ້າ*</div>
+          <div class="withdraw-confirm-desktop-text-price">ເລືອກທະນາຄານບັນຊີຝາກ</div>
+          <select name="bank" class="withdraw-confirm-desktop-select-account" value="">
+            <option value="account1">ທ້າວ ກກກກກກ</option>
+            <option value="account2">Account 2</option>
+            <option value="account3">Account 3</option>
+            <option value="account4">Account 4</option>
+          </select>
+          <div class="withdraw-confirm-desktop-text-price">ເລືອກທະນາຄານທີ່ຈະເຮັດທຸລະກຳຝາກ</div>
+          <select name="bank" class="withdraw-confirm-desktop-select-bank" value="">
+            <option value="bank1">ເລືອກທະນາຄານ</option>
+            <option value="bank2">Bank 2</option>
+            <option value="bank3">Bank 3</option>
+            <option value="bank4">Bank 4</option>
+          </select>
+          <div class="withdraw-confirm-desktop-warning">ກາລຸນາປ້ອນຂໍ້ມູນ</div>
+          <div class="withdraw-confirm-desktop-input-price-text">ປ້ອນຈຳນວນເງິນຕາມສະລີປ</div>
+          <input type="number" placeholder="ປ້ອນຈຳນວນເງິນຕາມສະລີປ" class="withdraw-confirm-desktop-input-price" />
+          <input type="text" placeholder="ເວລາເຮັດທຸລະກຳ" class="withdraw-confirm-desktop-input-date" />
+          <div class="withdraw-confirm-desktop-button">ຍືນຍັນຍອດຝາກ</div>
+          <div class="withdraw-confirm-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- deposit -->
+  <div class="modal" id="depositDesktop" aria-labelledby="depositDesktop" aria-hidden="true">
+    <div class="deposit-desktop-modal-bag">
+      <div class="deposit-desktop-bag-body">
+        <div class="deposit-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <div>ຖອນເງິນ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="deposit-desktop-bag-menu">
+          <div class="deposit-amount">0.00</div>
+          <div class="deposit-noti">
+            <div>ຖອນເງິນຂັ້ນຕໍ່າ 100 ບາດ</div>
+            <div>ຍອດເງີນຄົງເຫຼືອຂອງເຈົ້າບໍ່ພໍ</div>
+          </div>
+          <div class="deposit-desktop-policy-box">ອ່ານກົດກະຕິກາ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- profile desktop popup -->
+  <div class="modal" id="profileDesktop" aria-labelledby="profileDesktop" aria-hidden="true">
+    <div class="profile-desktop-modal-bag">
+      <div class="profile-desktop-bag-body">
+        <div class="profile-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <div>ຂໍ້ມູນໂປຣຟາຍ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" data-bs-dismiss="modal"
+            aria-label="Close" />
+        </div>
+        <div class="profile-desktop-bag-menu">
+          <div class="profile-desktop-menu-box">
+            <img src="../../images/logged-in/person-icon.png" alt="" />
+            <div>ຊື່ຜູ້ໃຊ້ : chr66545454545</div>
+          </div>
+          <div class="profile-desktop-menu-box">
+            <img src="../../images/logged-in/password-icon.png" alt="" />
+            <div>ລະຫັດຜ່ານ : 555555555</div>
+          </div>
+          <div class="profile-desktop-menu-box">
+            <img src="../../images/logged-in/coint-3.png" alt="" />
+            <div>ຍອດເງິນຍັງເຫຼືອ : 0.0</div>
+          </div>
+          <div class="profile-desktop-bank-box">
+            <img src="../../images/logged-in/k-bank.png" alt="" />
+            <div class="profile-desktop-bank-text-box">
+              <div>KBANK</div>
+              <div class="in-copy">
+                <div>026-0-00000-0</div>
+                <img src="/images/img-copy.svg" class="true-copy" alt="">
+              </div>
+              <div class="profile-desktop-main-account">ບັນຊີຫຼັກ</div>
+              <div>ທ້າວ ກກກກກກ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- change password desktop -->
+  <div class="modal" id="changePasswordDesktop" aria-labelledby="changePasswordDesktop" aria-hidden="true">
+    <div class="change-password-desktop-modal-bag">
+      <div class="change-password-desktop-bag-body">
+        <div class="change-password-desktop-bag-top">
+          <div></div>
+          <div></div>
+          <div>ປ່ຽນລະຫັດຜ່ານ</div>
+          <img src="../../images/logged-in/x-button.png" alt="" data-bs-dismiss="modal" aria-label="Close" />
+        </div>
+        <div class="change-password-desktop-bag-menu">
+          <input type="text" placeholder="ຕັ້ງລະຫັດຜ່ານໃໝ່" class="change-password-desktop-input-price" />
+          <input type="text" placeholder="ຍືນຍັນລະຫັດຜ່ານໃໝ່" class="change-password-desktop-input-price" />
+          <div class="change-password-desktop-button">ຍືນຍັນ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw auto mobile -->
+  <div class="modal-withdraw-auto-mobile" id="withdrawAutoMobile">
+    <div class="withdraw-auto-mobile-modal-bag">
+      <div class="withdraw-auto-mobile-bag-body">
+        <div class="withdraw-auto-mobile-bag-top">
+          <img src="../../images/logged-in/desktop/back-icon.png" id="withdraw-auto-mobile-close-icon" />
+          <div>ຝາກເງິນອໍໂຕ້</div>
+          <img src="../../images/logged-in/x-button.png" id="withdraw-auto-mobile-close-icon2" />
+        </div>
+        <div class="withdraw-auto-mobile-bag-menu">
+          <div class="withdraw-auto-mobile-bank-box">
+            <img src="../../images/logged-in/desktop/scb.png" alt="" />
+            <div class="content">
+              <div>SCB</div>
+              <div class="in-copy">
+                <div>999-9-99999-9</div>
+                <img src="/images/img-copy.svg" alt="">
+              </div>
+              <div>ມມມກກກດດດ ຮຮຮຮຮ</div>
+            </div>
+          </div>
+          <div class="withdraw-auto-mobile-noti-box">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ</div>
+          <div class="withdraw-auto-mobile-policy-box">ອ່ານກົດກະຕິກາ</div>
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw favorite mobile -->
+  <div class="modal-withdraw-favorite-mobile" id="withdrawFavoriteMobile">
+    <div class="withdraw-favorite-mobile-modal-bag">
+      <div class="withdraw-favorite-mobile-bag-body">
+        <div class="withdraw-favorite-mobile-bag-top">
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" alt="desktop bg"
+            id="withdraw-favorite-mobile-back-icon" />
+          <div>ຝາກເງິນທົດສະນິຍົມ</div>
+          <img src="../../images/logged-in/x-button.png" id="withdraw-favorite-mobile-close-icon"
+            alt="close-wallet-button" data-bs-dismiss="modal" aria-label="Close" />
+        </div>
+        <div class="withdraw-favorite-mobile-bag-menu">
+          <div class="withdraw-favorite-mobile-text-price">• ຝາກຂັ້ນຕໍ່າ 1.00 ບາດ ສູງສຸດ 2,000.00 ບາດ</div>
+          <input type="text" placeholder="ປ້ອນຈຳນວນເງິນທີ່ຕ້ອງການຝາກ" class="withdraw-favorite-mobile-input-price" />
+          <div class="withdraw-favorite-mobile-warning-text">ກາລຸນາປ້ອນຂໍ້ມູນ</div>
+          <div class="withdraw-favorite-mobile-button" id="openWithdrawFavorite2Mobile">ຍືນຍັນຈຳນວນເງິນ</div>
+          <div class="withdraw-favorite-mobile-policy-box">ອ່ານກົດກະຕິກາ</div>
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw favorite 2 mobile -->
+  <div class="modal-withdraw-favorite2-mobile" id="withdrawFavorite2Mobile">
+    <div class="withdraw-favorite2-mobile-modal-bag">
+      <div class="withdraw-favorite2-mobile-bag-body">
+        <div class="withdraw-favorite2-mobile-bag-top">
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" id="withdraw-favorite2-mobile-back-icon"
+            alt="Back Icon" />
+          <div>ຝາກເງິນທົດສະນິຍົມ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button"
+            id="withdraw-favorite2-mobile-close-icon" />
+        </div>
+        <div class="withdraw-favorite2-mobile-bag-menu">
+          <div class="withdraw-favorite2-mobile-text-price">ຍອດເງິນທີ່ຕ້ອງການໂອນ</div>
+          <div class="withdraw-favorite2-mobile-price">111.11</div>
+          <div class="withdraw-favorite2-mobile-text-price">ກາລຸນາໂອນເງິນພາຍໃນ <span style="color: #d82148">00.00</span>
+            ນາທີ</div>
+          <div class="withdraw-favorite2-mobile-bank-box">
+            <img src="../../images/logged-in/k-bank.png" alt="" />
+            <div class="withdraw-favorite2-mobile-bank-text-box">
+              <div>KBANK</div>
+              <div class="in-copy">
+                <div>026-0-00000-0</div>
+                <img src="/images/img-copy.svg" alt="">
+              </div>
+
+              <div>ທ້າວ ກກກກກກ</div>
+            </div>
+          </div>
+          <div class="withdraw-favorite2-mobile-noti-box">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ</div>
+          <div class="withdraw-favorite2-mobile-policy-box">ອ່ານກົດກະຕິກາ</div>
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw qr code mobile -->
+  <div class="modal-withdraw-qr-mobile" id="withdrawQRMobile">
+    <div class="withdraw-qr-mobile-modal-bag">
+      <div class="withdraw-qr-mobile-bag-body">
+        <div class="withdraw-qr-mobile-bag-top">
+          <img src="../../images/logged-in/desktop/back-icon.png" id="withdraw-qr-mobile-back-icon" alt="bank icon" />
+          <div>QR PAY</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button" id="withdraw-qr-mobile-close-icon" />
+        </div>
+        <div class="withdraw-qr-mobile-bag-menu">
+          <div class="withdraw-qr-mobile-text-price">• ຝາກຂັ້ນຕໍ່າ 100.00 ບາດ ສູງສຸດ 50,000.00 ບາດ *</div>
+          <input type="text" placeholder="ປ້ອນຈຳນວນເງິນທີ່ຕ້ອງການຝາກ" class="withdraw-qr-mobile-input-price" />
+          <select name="bank" class="withdraw-qr-mobile-select-bank" value="" aria-label="Select Bank">
+            <option value="bank1">ເລືອກບັນຊີທະນາຄານ</option>
+            <option value="bank2">Bank 1</option>
+            <option value="bank3">Bank 2</option>
+            <option value="bank4">Bank 3</option>
+          </select>
+          <div class="withdraw-qr-mobile-button" id="openWthdrawQR2Mobile">ຍືນຍັນຈຳນວນເງິນ</div>
+          <div class="withdraw-qr-mobile-policy-box">ອ່ານກົດກະຕິກາ</div>
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+          <div class="withdraw-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw qr code 2 mobile -->
+  <div class="modal-withdraw-qr2-mobile" id="withdrawQR2Mobile">
+    <div class="withdraw-qr2-mobile-modal-bag">
+      <div class="withdraw-qr2-mobile-bag-body">
+        <div class="withdraw-qr2-mobile-bag-top">
+          <img src="../../images/logged-in/desktop/back-icon.png" id="withdraw-qr2-mobile-back-icon" alt="desktop bg" />
+          <div>QR PAY</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button"
+            id="withdraw-qr2-mobile-close-icon" />
+        </div>
+        <div class="withdraw-qr2-mobile-bag-menu">
+          <div class="withdraw-qr2-mobile-text-price">ຈຳນວນເງິນຝາກຜ່ານ QR Code</div>
+          <div class="withdraw-qr2-mobile-price">111.11 ບາດ</div>
+          <div class="withdraw-qr2-mobile-text-price">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກເທົ່ານັ້ນ</div>
+          <div class="withdraw-qr2-mobile-box"></div>
+          <div class="withdraw-qr2-mobile-button">ບັນທຶກຮູບເພື່ອທຸລະກຳ</div>
+          <div class="withdraw-qr2-mobile-policy-box">ວິທີການຊຳລະເງິນ</div>
+          <div class="withdraw-qr2-mobile-detail-text">1.ບັນທຶກຮູບ ຫຼື ແຄບໜ້າຈໍ QR Code</div>
+          <div class="withdraw-qr2-mobile-detail-text">2.ເຂົ້າແອັບທະນາຄານທີ່ຕ້ອງການທຸລະກຳ</div>
+          <div class="withdraw-qr2-mobile-detail-text">
+            <span style="color: #d82148">*ຕ້ອງໃຊ້ບັນຊີທີ່ຜູກກັບລະບົບເທົ່ານັ້ນ*</span>
+          </div>
+          <div class="withdraw-qr2-mobile-detail-text">3.ກົດເລືອກສະແກນຈ່າຍໃນແອັບທະນາຄານນັ້ນໆ</div>
+          <div class="withdraw-qr2-mobile-detail-text">4.ເລືອກຮູບພາບ QR Code ທີ່ບັນທຶກຮູບ ຫຼື ແຄບໜ້າຈໍ
+            ເພື່ອເຮັດທຸລະກຳ</div>
+          <br />
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw truemoney mobile -->
+  <div class="modal-withdraw-truemoney-mobile" id="withdrawTruemoneyMobile">
+    <div class="withdraw-truemoney-mobile-modal-bag">
+      <div class="withdraw-truemoney-mobile-bag-body">
+        <div class="withdraw-truemoney-mobile-bag-top">
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" id="withdraw-truemoney-mobile-back-icon"
+            alt="desktop bg" />
+          <div>Truemoney Wallet</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button"
+            id="withdraw-truemoney-mobile-close-icon" />
+        </div>
+        <div class="withdraw-truemoney-mobile-bag-menu">
+          <div class="withdraw-truemoney-mobile-bank-box">
+            <img src="../../images/logged-in/desktop/true-money.png" alt="" />
+            <div class="content">
+              <div>Truemoney Wallet</div>
+              <div class="in-copy">
+                <div>999-9-99999-9</div>
+                <img src="/images/img-copy.svg" alt="">
+              </div>
+              <div>Mr kkkkkkkkkk</div>
+            </div>
+          </div>
+          <div class="withdraw-truemoney-mobile-noti-box">ກາລຸນາໃຊ້ເລກບັນຊີທີ່ສະມັກໂອນມາເທົ່ານັ້ນ</div>
+          <div class="withdraw-truemoney-mobile-policy-box">ອ່ານກົດກະຕິກາ</div>
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+          <div class="withdraw-truemoney-box-6">
+            <img src="../../images/logged-in/line-logo.png" class="withdraw-line-logo" alt="" />
+            &nbsp;&nbsp; ໄລນບອທ ແຈ້ງເຕືອນຍອດ ຝາກ - ຖອນ
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- withdraw confirm mobile -->
+  <div class="modal-withdraw-confirm-mobile" id="withdrawConfirmMobile">
+    <div class="withdraw-confirm-mobile-modal-bag">
+      <div class="withdraw-confirm-mobile-bag-body">
+        <div class="withdraw-confirm-mobile-bag-top">
+          <div></div>
+          <img src="../../images/logged-in/desktop/back-icon.png" id="withdraw-confirm-mobile-back-icon"
+            alt="desktop-bg" />
+          <div>ຍືນຍັນຍອດຝາກ</div>
+          <img src="../../images/logged-in/x-button.png" alt="close-wallet-button"
+            id="withdraw-confirm-mobile-close-icon" />
+        </div>
+        <div class="withdraw-confirm-mobile-bag-menu">
+          <div class="withdraw-confirm-mobile-noti-confirm">*ໃຊ້ໃນກໍລະນີທະນາຄານມີບັນຫາ ຫຼືຍອດເງິນຝາກບໍ່ເຂົ້າ*</div>
+          <div class="withdraw-confirm-mobile-text-price">ເລືອກທະນາຄານບັນຊີຝາກ</div>
+          <select name="bank" class="withdraw-confirm-mobile-select-account" value="" aria-label="Select Account">
+            <option value="account1">ເລືອກທະນາຄານ</option>
+            <option value="account2">Account 2</option>
+            <option value="account3">Account 3</option>
+            <option value="account4">Account 4</option>
+          </select>
+          <div class="withdraw-confirm-mobile-text-price">ເລືອກທະນາຄານທີ່ຈະເຮັດທຸລະກຳຝາກ</div>
+          <select name="bank" class="withdraw-confirm-mobile-select-bank" value="" aria-label="Select Bank">
+            <option value="bank1">ເລືອກທະນາຄານ</option>
+            <option value="bank2">Bank 2</option>
+            <option value="bank3">Bank 3</option>
+            <option value="bank4">Bank 4</option>
+          </select>
+          <div class="withdraw-confirm-mobile-warning">ກາລຸນາປ້ອນຂໍ້ມູນ</div>
+          <div class="withdraw-confirm-mobile-input-price-text">ປ້ອນຈຳນວນເງິນຕາມສະລີປ</div>
+          <input type="number" placeholder="ປ້ອນຈຳນວນເງິນຕາມສະລີປ" class="withdraw-confirm-mobile-input-price" />
+          <input type="text" placeholder="ເວລາເຮັດທຸລະກຳ" class="withdraw-confirm-mobile-input-date" />
+          <div class="withdraw-confirm-mobile-button">ຍືນຍັນຍອດຝາກ</div>
+          <div class="withdraw-auto-mobile-text-box">
+            ຖ້າທ່ານພົບບັນຫາ <span style="color: #00fcfc; cursor: pointer"><u>ຕິດຕໍ່ຝ່າຍບໍລິການລູກຄ້າ.</u></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../../js/home-logged-in.js"></script>
+  <script src="../../js/script-modal.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.classList.add("mystyle");
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function selectDropdow() {
+      var x = document.getElementById("detailSelect");
+      if (x.style.display === "none") {
+        x.style.display = "flex";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function selectFirstBill() {
+      var x = document.getElementById("selectList");
+      if (x.style.display === "none") {
+        x.style.display = "flex";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    const activityBox = document.getElementById('quest-modal-button')
+    const questModal = document.getElementsByClassName('middle-of-the-night')[0]; // Assuming you want to access the first element
+
+    activityBox.addEventListener('click', () => {
+      if (questModal.style.display === 'none' || questModal.style.display === '') {
+        questModal.style.display = 'flex';
+      } else {
+        questModal.style.display = 'none';
+      }
+    });
+
+  </script>
+</body>
+
+</html>
